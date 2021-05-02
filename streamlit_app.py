@@ -1,7 +1,5 @@
 import pandas as pd
 import streamlit as st
-import plotly.graph_objects as go
-
 from covid_availability_finder import get_availability
 
 st.title('Covin Vaccine Availability')
