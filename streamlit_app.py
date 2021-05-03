@@ -17,7 +17,7 @@ districts_data=dict(data.values)
 available_districts=list(districts_data.keys())
 min_age_limit = st.sidebar.radio('Minimum Age Limit', [18, 45])
 option = st.sidebar.multiselect('District', available_districts,default=['Prakasam'])
-table_option = st.sidebar.radio('Table Type', ['Normal','DataFrame'])
+table_option = st.sidebar.radio('Table Type', ['DataFrame','Normal'])
 available_district_ids=[districts_data[val] for val in option]
 
     
